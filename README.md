@@ -1,4 +1,4 @@
-# Student_Performance_and_Behaviour
+# Student_Performance_and_Behaviour (Group 2)
 
 A complete end-to-end machine learning pipeline for predicting student academic grades using Random Forest and XGBoost classifiers.
 
