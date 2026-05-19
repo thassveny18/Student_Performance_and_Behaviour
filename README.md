@@ -40,7 +40,8 @@ Install all required dependencies:
 ```bash
 pip install xgboost scikit-learn pandas matplotlib seaborn imbalanced-learn
 ```
-
+> **Note:** If running on Google Colab, `imbalanced-learn` is installed as a separate cell mid-notebook before the SMOTETomek step.
+ 
 ---
 
 ## How to Run
@@ -50,6 +51,7 @@ The full pipeline is contained in a single .py file. Simply run it top to bottom
 ```
 ml_5.py
 ```
+> **Note:** The notebook runs on Google Colab. When prompted, upload `Students Performance Dataset.csv` via the `files.upload()` cell. You will also need to mount your Google Drive to save generated plots automatically to `student_grade_prediction/images/`.
 
 This notebook covers the complete workflow:
 
